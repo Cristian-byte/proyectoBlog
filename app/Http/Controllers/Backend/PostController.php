@@ -60,6 +60,7 @@ class PostController extends Controller
     public function show(Post $post)
     {
         //
+        return view('posts.edit', compact('post'));
     }
     /**
      * Show the form for editing the specified resource.
