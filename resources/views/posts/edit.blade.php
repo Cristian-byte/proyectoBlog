@@ -26,6 +26,7 @@
                         <div class="form-group">
                             <label>Contenido *</label>
                             <textarea name="body" class="form-control" required>{{ old('body', $post->body) }}</textarea>
+                            <textarea name="iframe" class="form-control">{{ old('iframe', $post->iframe) }}</textarea>
                         </div>
                         <div class="form-group">
                             <label>Contenido enbebido</label>
